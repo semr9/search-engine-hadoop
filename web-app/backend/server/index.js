@@ -35,13 +35,13 @@ const clusterID = "j-1L1341P85Q0A7"
 
 const region = "us-east-1"
 const bucketName = "search-engine-hadoop"
-const accessKeyId = "AKIASYQUAQKXJJJVP7KK"
-const secretAccessKey = "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"
+const accessKeyId = ""
+const secretAccessKey = ""
 const PORT = process.env.PORT || 3001;
 const dictWords = {};
 const wordsToSearch = new Set();
-const accessKeyId_EMR ="AKIASYQUAQKXN7VJLQBS"
-const secretAccessKey_EMR = "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"
+const accessKeyId_EMR =""
+const secretAccessKey_EMR = ""
 //Initialize
 const app = express();
 const filesII =[ 'output-1/part-r-00000', 'output-1/part-r-00001' ,'output-1/part-r-00002']
